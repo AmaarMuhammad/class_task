@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Deploying Flask App at Vercel"
+    return "Flask App Deployed via GitHub Actions & Vercel!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
